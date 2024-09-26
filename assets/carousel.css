@@ -1,0 +1,174 @@
+#carousel {
+  background-image: url(../public/img/girl/pngtree-girl-walks-on-the-beach-picture-image_2490111.jpg);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* position: absolute; */
+  z-index: 2;
+}
+
+.carousel__lf h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.carousel__lf em {
+  font-size: 80px;
+  font-weight: 550;
+  margin: 0;
+  letter-spacing: -2px;
+  word-spacing: -5px;
+}
+
+.carousel__lf span {
+  font-size: 80px;
+  font-weight: 550;
+  margin: 0;
+  letter-spacing: -2px;
+  word-spacing: -5px;
+}
+
+.carousel__lf {
+  /* position: fixed;
+  bottom: 20px;
+  left: 20px; */
+  padding-top: 250px;
+}
+
+.carousel__lf-bt button {
+  width: 210px;
+  height: 65px;
+  text-align: center;
+  border-radius: 50px;
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.carousel__lf-bt button span {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.carousel__lf-bt button i {
+  border: 1px solid black;
+  border-radius: 999px;
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+  padding-top: 7px;
+}
+
+.carousel__lf-bt .btn__bt:hover {
+  background-color: #dbe112;
+}
+
+.btn__bt {
+  position: relative;
+  transition: all 0.2s linear;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel__lf-bt .btn__bt:hover i {
+  content: "";
+  position: absolute;
+  left: 140px;
+  transform: translateX(90%);
+  width: 30px;
+  height: 30px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  transition: right 0.5s linear;
+}
+
+.carousel__lf-bt .btn__bt span:hover {
+  animation: move-right 0.5s infinite alternate;
+}
+
+.carousel__lf-bt .btn__bt span:hover {
+  outline: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #ddd transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.carousel__lf-bt .btn__bt span {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.5s linear;
+}
+
+.carousel__lf-bt {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.carousel__lf-bt .btnn__bt:hover {
+  background-color: black;
+  color: aliceblue;
+}
+
+.btnn__bt {
+  position: relative;
+  transition: all 0.2s linear;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel__lf-bt .btnn__bt:hover i {
+  content: "";
+  position: absolute;
+  left: 145px;
+  transform: translateX(90%);
+  width: 30px;
+  height: 30px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transition: right 0.5s linear;
+  border-color: white;
+}
+
+.carousel__lf-bt .btnn__bt:hover {
+  border: 2px solid white;
+}
+
+.carousel__lf-bt .btnn__bt span:hover {
+  outline: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #ddd transparent;
+  -webkit-tap-highlight-color: transparent;
+  animation: move-right 0.5s infinite alternate;
+}
+
+.carousel__lf-bt .btnn__bt span {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.5s linear;
+}
+
+.carousel__icon-lf a i {
+  font-size: 24px;
+  border: none;
+  width: 55px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 7px;
+  background-color: white;
+  color: black;
+}
+
+.carousel__icon {
+  display: flex;
+  gap: 10px;
+  padding-left: 1400px;
+}
+
+.carousel__icon-lf:hover i {
+  background-color: black;
+  color: white;
+}

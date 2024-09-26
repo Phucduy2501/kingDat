@@ -1,0 +1,10 @@
+#Ourlatest {
+  background-color: black;
+  padding: 50px 0;
+}
+
+.Ourlatest__content p {
+  font-size: 75px;
+  text-align: center;
+  color: white;
+}

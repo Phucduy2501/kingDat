@@ -1,0 +1,300 @@
+#Shorttop {
+  margin-bottom: 50px;
+}
+
+.Shorttop__right-1 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  height: 22px;
+  margin-bottom: 10px;
+}
+.Shorttop__right-1 p {
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.Shorttop__right-p2 {
+  font-size: 18px;
+  height: 70px;
+  width: 500px;
+  margin: 0;
+}
+
+.Shorttop__right-span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Shorttop__right-input {
+  width: 60px;
+  height: 48px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.Shorttop__right-input p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.Shorttop__right-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.Shorttop__right-p3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Shorttop__right-p3 span {
+  font-weight: 350;
+}
+
+.Shorttop__right-round1 i {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  border-radius: 50%;
+  color: black;
+  cursor: pointer;
+}
+
+.Shorttop__right-round2 {
+  font-size: 25px;
+  color: #b8aec6;
+  cursor: pointer;
+}
+
+.Shorttop__right-round3 {
+  font-size: 25px;
+  color: #8ca98c;
+  cursor: pointer;
+}
+
+.Shorttop__right-round4 {
+  font-size: 25px;
+  color: #2b2f49;
+  cursor: pointer;
+}
+
+.Shorttop__right-round5 {
+  font-size: 25px;
+  color: #d6c3c3;
+  cursor: pointer;
+}
+
+.Shorttop__right-round {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.Shorttop__right-p4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Shorttop__right-p5 .minus i {
+  font-size: 14px;
+}
+
+.Shorttop__right-p5 p {
+  font-size: 16px;
+}
+
+.Shorttop__right-p5 .plus i {
+  font-size: 14px;
+}
+
+.Shorttop__right-p5 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  width: 140px;
+  height: 50px;
+  border: 1px solid black;
+  padding-left: 25px;
+  border-radius: 30px;
+}
+
+.Shorttop__right-Pickup2 {
+  font-size: 12px;
+}
+
+.Shorttop__right-Pickup2 a {
+  color: black;
+}
+
+.Shorttop__right-Pickup2 p {
+  margin: 0;
+}
+
+.Shorttop__right-Pickup2 {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 27px;
+}
+
+.Shorttop__right-Pickup1 p {
+  font-size: 16px;
+  margin: 0;
+}
+.Shorttop__right-Pickup1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.Shorttop__right-Pickup {
+  width: 525px;
+  height: 71px;
+  padding: 5px 20px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #e8f1e8;
+  margin-bottom: 10px;
+}
+
+.Shorttop__right-social a {
+  text-decoration: none;
+}
+
+.Shorttop__right-social a i {
+  font-size: 20px;
+  color: black;
+}
+
+.Shorttop__right-social a + a {
+  margin-left: 8px;
+}
+
+.Shorttop__right-icon a {
+  font-size: 14px;
+  color: black;
+}
+
+.Shorttop__right-icon {
+  display: flex;
+  gap: 50px;
+  margin: 10px 0;
+}
+
+.button__add {
+  width: 257px;
+  height: 62px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border: none;
+  transition: all 0.3s linear;
+}
+
+.button__add:hover {
+  background-color: #dbe112;
+  color: black;
+}
+
+.button__buy {
+  width: 257px;
+  height: 62px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.button__buy:hover {
+  background-color: #136f99;
+  color: black;
+  border: 1px solid #dbe112;
+}
+
+.Shorttop__right-button {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.Shorttop__right-bt1 p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.Shorttop__right-bt1 i {
+  font-size: 18px;
+}
+
+.Shorttop__right-bt1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.Shorttop__right-bt {
+  display: flex;
+  gap: 25px;
+}
+
+.Shorttop__right {
+  width: 530px;
+}
+
+.Shorttop__left-1 img {
+  width: 700px;
+  height: 950px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.Shorttop__left .Shorttop__left-3 img {
+  width: 270px;
+  height: 312px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.Shorttop__left {
+  display: flex;
+  gap: 10px;
+}
+
+.Shorttop__content {
+  display: flex;
+  gap: 45px;
+  margin-top: 80px;
+}
+
+.Shorttop__right-h3 {
+  font-size: 45px;
+  height: 50px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.Shorttop__right-p1 {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

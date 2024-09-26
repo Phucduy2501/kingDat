@@ -1,0 +1,9 @@
+#media {
+  height: 768px;
+}
+
+#media img {
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}

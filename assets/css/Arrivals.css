@@ -1,0 +1,35 @@
+#Arrivals {
+  background-color: #f4f4f4;
+  padding-bottom: 50px;
+}
+.Arrivals__h1 {
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Arrivals__item-new img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.Arrivals__item-new {
+  width: 418px;
+  height: 420px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.Arrivals__item-new:hover img {
+  transform: scale(1.05);
+}
+
+.Arrivals__item {
+  display: flex;
+  gap: 20px;
+}

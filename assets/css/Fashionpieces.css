@@ -1,0 +1,55 @@
+#Fashionpieces {
+  margin: 50px 0;
+}
+
+.Fashionpieces__right h2 {
+  font-size: 65px;
+  font-weight: 550;
+  width: 499px;
+  margin: 0;
+}
+
+.Fashionpieces__right h2 em {
+  font-weight: 400;
+}
+
+.Fashionpieces__right-1 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  width: 553px;
+  height: 84px;
+  margin-top: 20px;
+}
+
+.Fashionpieces__right-2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  width: 553px;
+  height: 84px;
+  margin-top: 25px;
+  margin-bottom: 70px;
+}
+
+.Fashionpieces__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Fashionpieces__right {
+  background-color: #d8e0e5;
+  height: 800px;
+  padding: 50px 20px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.Fashionpieces__content img {
+  width: 900px;
+  height: 800px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  object-fit: cover;
+}

@@ -1,0 +1,74 @@
+#newfashion {
+  margin-top: 50px;
+  background-image: url(../../public/img/red-clothes.webp);
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  position: relative;
+  background-color: black;
+}
+
+.newfashion__content button img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.newfashion__content button {
+  width: 192px;
+  height: 77px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  transition: transform 0.3s linear;
+  margin-top: 30px;
+  border: none;
+}
+
+.newfashion__content button span {
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.newfashion__content button i {
+  font-size: 18px;
+  color: #959595;
+}
+
+.newfashion__content button:hover {
+  background-color: #dbe112;
+  transform: scale(0.95);
+}
+
+.newfashion__content h1 {
+  font-size: 75px;
+  font-weight: 650;
+  height: 90;
+  margin: 0;
+  color: white;
+}
+
+.newfashion__content p {
+  font-size: 20px;
+  font-weight: 500;
+  width: 463px;
+  padding-top: 15px;
+  margin: 0;
+  color: white;
+}
+
+.newfashion__content {
+  position: absolute;
+  left: 70px;
+  bottom: 30px;
+}
+
+.newfashion__right {
+  position: absolute;
+  right: 20px;
+  bottom: 170px;
+  display: flex;
+  gap: 5px;
+}

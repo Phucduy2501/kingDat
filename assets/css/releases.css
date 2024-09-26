@@ -1,0 +1,29 @@
+.releases__content h1 {
+  font-size: 75px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+  height: 90px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.releases__content h1 p {
+  margin: 0;
+  -webkit-text-stroke: 1px black;
+  color: transparent !important;
+}
+
+.releases__content span {
+  font-size: 20px;
+  color: #616161;
+}
+
+.releases__hr {
+  margin-top: 30px;
+  background-color: #dfdfe1;
+  height: 1px;
+  border: none;
+}
