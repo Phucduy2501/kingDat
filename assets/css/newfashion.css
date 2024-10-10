@@ -67,8 +67,19 @@
 
 .newfashion__right {
   position: absolute;
-  right: 20px;
+  right: -1445px;
   bottom: 170px;
   display: flex;
   gap: 5px;
+}
+
+.slick-slide {
+  width: 100%; /* Mỗi slide chiếm 100% chiều rộng */
+  box-sizing: border-box; /* Đảm bảo padding không ảnh hưởng đến kích thước */
+}
+
+.newfashion__right {
+  position: absolute;
+  right: -1530px;
+  top: 150px;
 }

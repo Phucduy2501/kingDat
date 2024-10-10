@@ -80,17 +80,348 @@
   background-position: center;
 }
 
-.buymore_item-bg .bottom__text {
-  display: flex;
-  /* position: absolute; */
-  left: 0;
-  bottom: -200%;
-  z-index: 2;
-  transition: 0.25s linear;
+.buymore_item-bg {
+  transition: all 0.3s linear;
 }
 
 .buymore_item-bg:hover {
-  background-color: lightblue;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  transform: translateY(2px);
+  background-color: #6cf600;
+}
+
+/*! ------------------------------ */
+
+.top-text {
+  transition: all 0.5s linear;
+}
+
+.buymore_item-bg {
+  position: relative;
+}
+
+.buymore_item-bg .bottom__text {
+  position: absolute;
+  left: 36px;
+  bottom: 0;
+}
+
+.bottom__text {
+  opacity: 0;
+  transform: translateY(90px);
+  transition: all 0.3s linear;
+}
+
+.buymore_item-bg:hover .bottom__text {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.buymore_item-bg:hover .top-text {
+  display: flex;
+  position: absolute;
+  left: 36px;
+  transform: translateY(-90px);
+  opacity: 0;
+}
+
+/*! ------------------------------ */
+
+.top-text1 {
+  transition: all 0.5s linear;
+}
+
+.buymore_item-bg {
+  position: relative;
+}
+.buymore_item-bg .bottom__text1 {
+  position: absolute;
+  left: 51px;
+  bottom: 0;
+}
+
+.bottom__text1 {
+  opacity: 0;
+  transform: translateY(90px);
+  transition: all 0.3s linear;
+}
+
+.buymore_item-bg:hover .bottom__text1 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.buymore_item-bg:hover .top-text1 {
+  display: flex;
+  position: absolute;
+  left: 51px;
+  transform: translateY(-90px);
+  opacity: 0;
+}
+
+/*! -------------------------------------  */
+.top-text2 {
+  transition: all 0.5s linear;
+}
+
+.buymore_item-bg {
+  position: relative;
+}
+.buymore_item-bg .bottom__text2 {
+  position: absolute;
+  left: 49px;
+  bottom: 0;
+}
+
+.bottom__text2 {
+  opacity: 0;
+  transform: translateY(90px);
+  transition: all 0.3s linear;
+}
+
+.buymore_item-bg:hover .bottom__text2 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.buymore_item-bg:hover .top-text2 {
+  display: flex;
+  position: absolute;
+  left: 49px;
+  transform: translateY(-90px);
+  opacity: 0;
+}
+
+/*! -------------------------------------  */
+.top-text3 {
+  transition: all 0.5s linear;
+}
+
+.buymore_item-bg {
+  position: relative;
+}
+.buymore_item-bg .bottom__text3 {
+  position: absolute;
+  left: 36px;
+  bottom: 0;
+}
+
+.bottom__text3 {
+  opacity: 0;
+  transform: translateY(90px);
+  transition: all 0.3s linear;
+}
+
+.buymore_item-bg:hover .bottom__text3 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.buymore_item-bg:hover .top-text3 {
+  display: flex;
+  position: absolute;
+  left: 36px;
+  transform: translateY(-90px);
+  opacity: 0;
+}
+
+/*! -------------------------------------  */
+
+.top-text4 {
+  transition: all 0.5s linear;
+}
+
+.buymore_item-bg {
+  position: relative;
+}
+.buymore_item-bg .bottom__text4 {
+  position: absolute;
+  left: 53px;
+  bottom: 0;
+}
+
+.bottom__text4 {
+  opacity: 0;
+  transform: translateY(90px);
+  transition: all 0.3s linear;
+}
+
+.buymore_item-bg:hover .bottom__text4 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.buymore_item-bg:hover .top-text4 {
+  display: flex;
+  position: absolute;
+  left: 53px;
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+/*! -------------------------------------  */
+.top-text5 {
+  transition: all 0.5s linear;
+}
+
+.buymore_item-bg {
+  position: relative;
+}
+.buymore_item-bg .bottom__text5 {
+  position: absolute;
+  left: 42px;
+  bottom: 0;
+}
+
+.bottom__text5 {
+  opacity: 0;
+  transform: translateY(90px);
+  transition: all 0.3s linear;
+}
+
+.buymore_item-bg:hover .bottom__text5 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.buymore_item-bg:hover .top-text5 {
+  display: flex;
+  position: absolute;
+  left: 42px;
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+/*! -------------------------------------  */
+
+.top-text6 {
+  transition: all 0.5s linear;
+}
+
+.buymore_item-bg {
+  position: relative;
+}
+.buymore_item-bg .bottom__text6 {
+  position: absolute;
+  left: 40px;
+  bottom: 0;
+}
+
+.bottom__text6 {
+  opacity: 0;
+  transform: translateY(90px);
+  transition: all 0.3s linear;
+}
+
+.buymore_item-bg:hover .bottom__text6 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.buymore_item-bg:hover .top-text6 {
+  display: flex;
+  position: absolute;
+  left: 40px;
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+/*! ---------------------------------  */
+
+.top-text7 {
+  transition: all 0.5s linear;
+}
+
+.buymore_item-bg {
+  position: relative;
+}
+.buymore_item-bg .bottom__text7 {
+  position: absolute;
+  left: 37px;
+  bottom: 0;
+}
+
+.bottom__text7 {
+  opacity: 0;
+  transform: translateY(90px);
+  transition: all 0.3s linear;
+}
+
+.buymore_item-bg:hover .bottom__text7 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.buymore_item-bg:hover .top-text7 {
+  display: flex;
+  position: absolute;
+  left: 37px;
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+/*! ---------------------------------  */
+
+.top-text8 {
+  transition: all 0.5s linear;
+}
+
+.buymore_item-bg {
+  position: relative;
+}
+.buymore_item-bg .bottom__text8 {
+  position: absolute;
+  left: 46px;
+  bottom: 0;
+}
+
+.bottom__text8 {
+  opacity: 0;
+  transform: translateY(90px);
+  transition: all 0.3s linear;
+}
+
+.buymore_item-bg:hover .bottom__text8 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.buymore_item-bg:hover .top-text8 {
+  display: flex;
+  position: absolute;
+  left: 46px;
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+/*! ---------------------------------  */
+
+.top-text9 {
+  transition: all 0.5s linear;
+}
+
+.buymore_item-bg {
+  position: relative;
+}
+.buymore_item-bg .bottom__text9 {
+  position: absolute;
+  left: 38px;
+  bottom: 0;
+}
+
+.bottom__text9 {
+  opacity: 0;
+  transform: translateY(90px);
+  transition: all 0.3s linear;
+}
+
+.buymore_item-bg:hover .bottom__text9 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.buymore_item-bg:hover .top-text9 {
+  display: flex;
+  position: absolute;
+  left: 38px;
+  transform: translateY(-50px);
+  opacity: 0;
 }

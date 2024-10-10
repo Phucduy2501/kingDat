@@ -1,11 +1,20 @@
 #carousel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+  width: 100%;
+}
+.carousel__bg {
   background-image: url(../public/img/girl/pngtree-girl-walks-on-the-beach-picture-image_2490111.jpg);
   height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   /* position: absolute; */
-  z-index: 2;
+  z-index: 1;
+  position: relative;
+  width: 100%;
 }
 
 .carousel__lf h4 {
@@ -35,6 +44,7 @@
   bottom: 20px;
   left: 20px; */
   padding-top: 250px;
+  position: relative;
 }
 
 .carousel__lf-bt button {
@@ -165,10 +175,36 @@
 .carousel__icon {
   display: flex;
   gap: 10px;
-  padding-left: 1400px;
+  padding-left: 1560px;
 }
 
 .carousel__icon-lf:hover i {
   background-color: black;
   color: white;
+}
+
+/* .testPrev.slick-prev::before {
+  color: blueviolet;
+  font-size: 30px;
+  content: "<";
+}
+.testPrev.slick-next::before {
+  color: rgb(226, 43, 141);
+  font-size: 30px;
+  content: ">";
+} */
+
+.slick-dots li.slick-active button::before {
+  display: none;
+}
+
+.slick-dots li button:before {
+  display: none;
+  display: none;
+}
+
+.carousel__icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }

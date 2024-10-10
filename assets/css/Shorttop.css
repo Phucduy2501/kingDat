@@ -298,3 +298,10 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.Shorttop__right-p5 .minus i {
+  cursor: pointer;
+}
+.Shorttop__right-p5 .plus i {
+  cursor: pointer;
+}
